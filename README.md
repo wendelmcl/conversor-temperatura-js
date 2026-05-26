@@ -13,7 +13,6 @@ Praticar conceitos fundamentais de desenvolvimento front-end, incluindo formulá
 - Exibição das fórmulas utilizadas
 - Interface moderna responsiva
 - Campos de entrada e seleção de escala
-- Botão de limpeza dos valores
 
 ## Conversões realizadas
 
