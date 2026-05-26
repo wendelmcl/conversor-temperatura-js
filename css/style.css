@@ -1,0 +1,316 @@
+.root {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    background: linear-gradient(135deg, #0F172A, #111827, #1E1B4B);
+}
+
+.secaocentralizada {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+}
+
+.fundointerno {
+    background: #1E293B;
+    border: 1px solid #334155;
+    border-radius: 24px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 35);
+    width: 90%;
+    min-height: 460px;
+    padding: 32px 40px;
+    max-width: 920px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+
+.fundointerno1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 52px;
+}
+
+.valores {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    padding: 24px;
+}
+
+.formulariovalores {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.informacaoicon{
+    font-size: 24px;
+    color: #22D3EE;
+}
+
+.informacaoformula {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    padding: 18px 22px;
+    width: 240px;
+    min-height: 96px;
+    background: rgba(15, 23, 42, 0.72);
+    border: 1px solid #334155;
+    box-shadow: 0 10px 24px rgba(0, 0, 0, 0.22);
+    border-radius: 12px;
+}
+
+.formulatextos{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.formulautilizada {
+    font-size: 15px;
+    font-weight: 600px;
+    color: #F8FAFC;
+    margin-bottom: 8px;
+}
+
+.formula {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.6;
+    color: #CBD5E1;
+}
+
+.resultadoescala{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+.resultado h1,
+h2,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+.cardtitulos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 24px;
+}
+
+h1 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 32px;
+}
+
+.titulo {
+    font-size: 48px;
+    background: linear-gradient(90deg, #38BDF8, #22D3EE, #A78BFA);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.subtitulo {
+    color: #E2E8F0;
+}
+
+.textform {
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.resultado {
+    font-size: 14px;
+    color: #FFFFFF;
+    width: 300px;
+    min-height: 110px;
+    border: 1px solid #334155;
+    background: linear-gradient(135deg, #1E293B, #0F172A);
+    background: #1E293B;
+    border-radius: 18px;
+    box-shadow: 0 12px 28px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding-top: 15px;
+}
+
+h2 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 20px;
+}
+
+.rodape {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12px;
+    color: #E2E8F0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15px;
+    gap: 12px;
+}
+
+.rodape #escudo {
+    color: green;
+}
+
+.inputtemperatura {
+    background: linear-gradient(135deg, #1E293B, #0F172A);
+    border: 1px solid #334155;
+    border-radius: 12px;
+    color: #FFFFFF;
+    padding: 14px 16px;
+    font-size: 16px;
+    width: 250px;
+}
+
+.inputtemperatura:focus {
+    outline: none;
+    border-color: #38BDF8;
+    box-shadow: 0 0 0 4px rgba(56, 189, 248, 0.15);
+}
+
+.inputtemperatura::placeholder {
+    color: #94A3B8;
+}
+
+
+.botao {
+    background: linear-gradient(135deg, #00D4AA, #7B61FF);
+    border: none;
+    border-radius: 14px;
+    color: #FFFFFF;
+    padding: 14px 16px;
+    font-weight: 600;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    width: 280px;
+    height: 54px;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+
+.botao:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(123, 97, 255, 0.35);
+}
+
+.temperatura {
+    font-size: 48px;
+    background: linear-gradient(90deg, #38BDF8, #22D3EE, #A78BFA);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.escala {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    width: 200px;
+    min-height: 50px;
+    border-radius: 16px;
+    padding: 18px 20px;
+    background: linear-gradient(135deg, #1E293B, #0F172A);
+    border: 1px solid #334155;
+    box-shadow: 0 10px 24px rgba(0, 0, 0, 0.22);
+}
+
+#iconetemperature {
+    font-size: 48px;
+    background: linear-gradient(90deg, #38BDF8, #22D3EE, #A78BFA);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.resultadocontainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+
+.resultadocontainer h2{
+    color: white;
+}
+
+.resultadocontainer #iconresultado{
+    font-size: 24px;
+    background: linear-gradient(90deg, #38BDF8, #22D3EE, #A78BFA);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.escaladetemperatura{
+    width: 100%;
+    height: 56px;
+    padding: 0 16px;
+    background: linear-gradient(135deg, #1E293B, #0F172A);
+    background: #1E293B;
+    border: 1px solid #334155;
+    color: #F8FAFC;
+    border-radius: 16px;
+    box-shadow: 0 8px 24px rgba (0, 0, 0, 0.35);
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.escaladetemperatura:focus{
+    border-color: #38BDF8;
+    box-shadow: 0 0 0 4px rgba(56, 189, 248, 0.15);
+}
+
+.escaladetemperatura option{
+    background-color: #0F172A;
+    color: #F8FAFC;
+    font-size: 15px;
+}
+
+.valor-temperatura-container1{
+    color: #00BFFF;
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.valor-temperatura-container2{
+    color: green;
+    font-weight: 700;
+    font-size: 22px;
+}
